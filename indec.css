@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0.5px;
+    padding: 5px; 
+}
+body{
+    font-size: 62.5%;
+}
+.container{
+    background-color: #674BB1;
+    background-image: url("./Group\ 30.svg");
+    max-width: 100rem;
+    opacity: 1;
+}
+.logo{
+    padding-left: 6.4rem;
+    padding-top: 4.2rem;
+    opacity: 1;
+}
+.centrebox{
+    display: flex;
+    
+}
+#images{
+    /* flex: 50%; */
+    width: 80%;
+    display: block;
+    padding-left: 5rem;
+}
+.textbox{
+    font-size: large;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    color: white;
+}
+h1{
+    padding-bottom: 15px;
+}
+p{
+    padding-bottom: 25px;
+}
+
+button{
+    background-color: white; 
+    border: none;
+    color: #674BB1;
+    padding: 1.5rem 3.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: .4rem .2rem;
+    cursor: pointer;
+    border-radius: 1.5rem;
+}
+.last{
+    display: flex;
+    padding-left: 1258px;
+    width: 1.6rem;
+    border-radius: 2.0rem;
+ }
+ @media screen and (max-width: 850px) {
+    .logo{
+        width: 100%;
+        display: block;
+    }
+    .centrebox{
+        width: 100%;
+        display: inline-block;
+    }
+    #imagebox{
+        width: 100%;
+        display: block;
+    }
+    .textbox{
+        width: 100%;
+        display: block;
+    }
+    .last{
+        width: 100%;
+        display: flex;
+        width: 1.6rem;
+         border-radius: 2.0rem;
+    }
+  }
